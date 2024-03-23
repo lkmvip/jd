@@ -55,6 +55,7 @@ if ($.isNode()) {
       $.message = '';
       $.balance = 0;
       $.expiredBalance = 0;
+      console.log(cookie);
       await TotalBean();
       console.log(`\n********开始【京东账号${$.index}】${$.nickName || $.UserName}******\n`);
       if (!$.isLogin) {
